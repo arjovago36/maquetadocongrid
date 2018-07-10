@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  front-size: large; 
+    
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+header {
+   background-color: white;
+      grid-column: 1 / -1;
+  
+}
+nav {
+  background-color: grey;
+  
+}
+section {
+  background-color: white;
+  grid-column: 2 / -2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  
+  
+  
+  
+}
+article {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+}
+footer {
+  background-color: LightYellow;
+  grid-column: 1 / -1;
+}
+section > h2 {
+  background-color: gray;
+  grid-column: 1 / -1;
+  
+}
+header, footer, h2, h3 {
+  text-align: center;
+}
+
+aside {
+  background-color: gray;
+}
+
+#panelMsg{
+   background-color: gray;
+   grid-column: 1 / -1;  
+}

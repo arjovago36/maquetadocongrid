@@ -1,66 +1,80 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <title> Costumbres Colombianas </title>
-      <link rel="stylesheet" href="style.css" />
-  </head>
+<html lang="en">
 
+  <head>
 
-    <body>
+  
+    <title>Golosinas!!</title>
 
-        <header>
-      Costumbres Colombianas
-        </header>
+    
+    <link rel="stylesheet" href="/estilo.css">
+    
+    <script src="/cliente.js" defer></script>
 
-        <nav>
-     <ul>
-            <li>facturas </li>
-            <li>pizza precocida </li>     
-            <li> panaderia</li>
+ 
+  </head>  
+  
+  <body>
 
+    <header><h4>
+      Encabezado de Pagina</h4>
+    </header>
+    
+    <nav>
+      <ul>
+        
+        <li>Chupetines</li>
+        <li>Caramelos</li>
+        <li>Chicles</li>
         </ul>
-        </nav>
-   
-        <section>
-        
-            
-          <h2>Venta de golosinas</h2>
-      
-          
-            <article>
-              <h3>
-                pasteleria 
-              </h3>
-              Tortas 
-            </article>
-          
-          
-          
-            <article> 
-              
-               <h3>
-             cupcake decorados
-              </h3>
-              cupcake
-          </article>
-          
-          
-            <article> 
-              <h3>
-                tortas frias
-              </h3>
-              postre
-          </article>
-          
-          
-        </section>
-        
-        
-              
-        <footer>
-            pie de pagina
-        </footer>
-        
-    </body>
+    </nav>
+    
+    
+  <section>
+    <h2>Venta de Golosinas</h2>
+    <article>
+      <h3>Alfajor</h3>
+    Alfajores Capitan
+    </article>
+    <article>
+      <h3>Galletita</h3>
+      Rodesia
+    </article>
+    <article>
+      <h3>Chicle</h3>
+      Clicle Jirafa
+    </article>
+    <article><h3>Chupetin</h3>
+      Topolin sorpresa
+    </article>
+    <div id="panelMsg">
+      Mensaje:
+    </div>
+  </section>
+    
+  <aside>
+    
+    formulario:
+    
+    <input type= "text" id="golosina_titulo" />
+    <textarea cols="20" rows="5" 
+              id="golosina_descripcion"> </textarea>
+  <button
+          id= "elBoton"
+          class= "fijate"
+          onclick= "Distribuidora.ofertar();"
+          >Presione!!</button>
+    </aside>  
+    
+    
+    </aside>  
+    
+    <footer><h2>
+      pie de pagina
+      </h2>
+    </footer>
+    
+  
+  </body>
 </html>
